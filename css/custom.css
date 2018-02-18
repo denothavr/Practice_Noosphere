@@ -1,0 +1,76 @@
+#main-app .row>div {
+	padding: 3px;
+	height: 50px;
+	box-sizing: border-box;
+}
+#main-app .row>div>div {
+	height: 100%;
+}
+@media screen and (max-width: 768px) {
+	#main-app .row>div {
+		height: 30px;
+		padding: 2px;
+	}
+}
+.bg-red {
+	background-color: red;
+}
+.bg-yellow {
+	background-color: yellow;
+}
+.bg-brown {
+	background-color: brown;
+}
+.bg-green {
+	background-color: green;
+}
+.bg-black {
+	background-color: black;
+}
+header {
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 8em;
+    padding: 2em 10%;
+    background: #2c3e50;
+    color: #fff;
+}
+header h1,
+header nav,
+header div {
+    display: inline-block;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.tableResult {
+	text-align: justify;
+	height: 5em;
+	background: #2c3e50;
+	color: #fff; 
+	text-shadow: 0px 2px 3px #171717;
+	box-shadow: 0px 2px 3px #555;
+	-webkit-box-shadow: 0px 2px 3px #555;
+	-moz-box-shadow: 0px 2px 3px #555;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.tableResult h4,
+.tableResult h3 {
+	display: inline-block;
+	
+}
+.tableResult h3 {
+	padding: 5px 7% 0px;
+}
+.tableResult h4 {
+	padding: 15px 7% 0px;
+}
+.tableResult::after {
+	content: '';
+    display: inline-block;
+    width: 100%;
+}

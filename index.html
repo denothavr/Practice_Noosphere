@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cubes_Game</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1>Cubes Game</h1>
+      <div class="text-center">
+        <h1>Time left:</h1>
+        <h1 id="timer">60</h1>
+      </div>
+      <nav>
+        <div class="text-center">
+          <button class="btn btn-success btn-lg start">Start</button>
+          <button class="btn btn-warning btn-lg pause">Pause</button>
+          <button class="btn btn-danger btn-lg restart">Restart</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      
+    <br>
+    <div class="row">
+      <div class="col-sm-12 col-md-8" id="main-app" value="0"></div>
+        <div class="col-sm-12 col-md-4">
+          <div class="well" id="colors">
+          </div>
+          <div class="well">
+            <div class="tableResult">
+              <h3>
+                Result
+              </h3>
+              <h3 id="result">
+                0
+              </h3>
+            </div>
+            <h3>Table</h3>
+            <div id="tableResults"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/block-ui/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+    
+  </body>
+</html>
